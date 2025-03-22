@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veera's Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #4e73df;  /* Elegant blue */
+            color: #fff;
+            padding: 5rem 2rem;
+            display: flex;
+            justify-content: center; /* Center the content horizontally */
+            align-items: center; /* Align content vertically */
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center; /* Align image and text vertically */
+            justify-content: center; /* Center the text next to the image */
+            text-align: center;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            margin-right: 2rem; /* Space between image and text */
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        /* Navigation Styling */
+        nav {
+            background-color: #2c3e50; /* Dark grey-blue */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        nav ul li a:hover {
+            color: #f1c40f; /* Soft yellow accent */
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .download-button {
+            background-color: #4e73df;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .download-button:hover {
+            background-color: #2c3e50;
+            transform: scale(1.05);
+        }
+
+        ul {
+            text-align: left;
+            padding-left: 20px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Profile Picture -->
+            <img src="VEERA_IMG.jpg" alt="Veera's Profile Picture" class="profile-picture">
+            <div>
+                <h1>VEERA V</h1>
+                <p>II BCA Student at Tagore College of Arts and Science, Chennai</p>
+                <p>University of Madras</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>Hey there! I'm a passionate BCA student at Tagore College of Arts and Science, Chennai. I love working with technology and design, especially when it comes to creating stunning presentations, editing videos, and making beautiful designs using tools like Canva and Adobe Photoshop. My goal is to blend creativity with technology to deliver impactful projects and help others in their digital journey!</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>Bachelor of Computer Applications (BCA) - Tagore College of Arts and Science, Chennai</p>
+        <p>University of Madras</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>PowerPoint</li>
+            <li>Excel</li>
+            <li>Canva</li>
+            <li>Adobe Photoshop</li>
+            <li>Video Editing</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="section-content">
+        <h2>Experience</h2>
+        <ul>
+            <li>Created captivating presentations for academic and professional purposes using PowerPoint</li>
+            <li>Designed beautiful graphics, templates, and social media posts using Canva</li>
+            <li>Edited engaging videos for various projects, showcasing creative storytelling</li>
+            <li>Developed detailed and organized Excel spreadsheets for data management and analysis</li>
+            <li>Created stunning photo edits and designs using Adobe Photoshop for various purposes</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Resume</h2>
+        <a href="veera_pdf.pdf" target="_blank" class="download-button">Download CV</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Veera</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
